@@ -5,7 +5,6 @@ RUN apt-get -y install python3
 RUN apt-get -y install python3-pip
 RUN apt-get -y install liblept5
 RUN apt-get -y install libgomp1
-RUN apt-get -y install libexif
 RUN pip3 install awscli --upgrade --user
 RUN echo "deb http://deb.debian.org/debian stretch-backports main contrib non-free" > /etc/apt/sources.list
 RUN apt-get update
